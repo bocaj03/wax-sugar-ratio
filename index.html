@@ -565,6 +565,20 @@
       flex: 1;
       color: #c9d1d9;
       margin: 0 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .comparison-name div:first-child {
+      font-weight: 600;
+      color: #e4e6eb;
+    }
+
+    .comparison-location {
+      font-size: 11px;
+      color: #8b949e;
+      font-weight: 400;
     }
 
     .comparison-value {
@@ -572,6 +586,18 @@
       font-weight: 600;
       text-align: right;
       min-width: 60px;
+    }
+
+    .comparison-item-detail {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+
+    .comparison-subtext {
+      font-size: 11px;
+      color: #8b949e;
     }
 
     @media (max-width: 768px) {
@@ -855,32 +881,218 @@
           
             <div class="comparison-item">
               <span class="comparison-rank">1.</span>
-              <span class="comparison-name">Elka Roe</span>
+              <span class="comparison-name">
+                <div>Elka Roe</div>
+                <div class="comparison-location">AZ Flagstaff | Heritage Square 008</div>
+              </span>
               <span class="comparison-value">211</span>
             </div>
           
             <div class="comparison-item">
               <span class="comparison-rank">2.</span>
-              <span class="comparison-name">Hope Patterson</span>
+              <span class="comparison-name">
+                <div>Hope Patterson</div>
+                <div class="comparison-location">AZ Goodyear | Canyon Trails 097</div>
+              </span>
               <span class="comparison-value">209</span>
             </div>
           
             <div class="comparison-item">
               <span class="comparison-rank">3.</span>
-              <span class="comparison-name">Chelsie Martinez</span>
+              <span class="comparison-name">
+                <div>Chelsie Martinez</div>
+                <div class="comparison-location">TX Dallas | Lakewood 021</div>
+              </span>
               <span class="comparison-value">204</span>
             </div>
           
             <div class="comparison-item">
               <span class="comparison-rank">4.</span>
-              <span class="comparison-name">Daysi Payan</span>
+              <span class="comparison-name">
+                <div>Daysi Payan</div>
+                <div class="comparison-location">AZ Peoria | Park West 007</div>
+              </span>
               <span class="comparison-value">190</span>
             </div>
           
             <div class="comparison-item">
               <span class="comparison-rank">5.</span>
-              <span class="comparison-name">Karla Romero</span>
+              <span class="comparison-name">
+                <div>Karla Romero</div>
+                <div class="comparison-location">AZ Tempe | Watermark 009</div>
+              </span>
               <span class="comparison-value">188</span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">6.</span>
+              <span class="comparison-name">
+                <div>Meily Zavala Madera</div>
+                <div class="comparison-location">AZ Phoenix | Cityscape 068</div>
+              </span>
+              <span class="comparison-value">183</span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">7.</span>
+              <span class="comparison-name">
+                <div>Ashley ⚡️ Fune</div>
+                <div class="comparison-location">CO Edgewater | Sloan Lake 019</div>
+              </span>
+              <span class="comparison-value">183</span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">8.</span>
+              <span class="comparison-name">
+                <div>Nicole Gamez</div>
+                <div class="comparison-location">TX Friendswood | Baybrook 061</div>
+              </span>
+              <span class="comparison-value">179</span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">9.</span>
+              <span class="comparison-name">
+                <div>Annalyn Crider</div>
+                <div class="comparison-location">AZ Tempe | Watermark 009</div>
+              </span>
+              <span class="comparison-value">175</span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">10.</span>
+              <span class="comparison-name">
+                <div>Jenny Gonzalez</div>
+                <div class="comparison-location">TX Sugar Land | Town Square 055</div>
+              </span>
+              <span class="comparison-value">168</span>
+            </div>
+          
+        </div>
+
+        <div class="comparison-box">
+          <h4>Highest Sugar Adoption by Staff</h4>
+          <div class="comparison-box-note">Staff with 30+ total services</div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">1.</span>
+              <span class="comparison-name">
+                <div>Aspen Brown</div>
+                <div class="comparison-location">TX Houston | Louetta 104</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">94%</span>
+                <span class="comparison-subtext">65 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">2.</span>
+              <span class="comparison-name">
+                <div>Myrisha Hudson</div>
+                <div class="comparison-location">TX Houston | Louetta 104</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">86%</span>
+                <span class="comparison-subtext">97 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">3.</span>
+              <span class="comparison-name">
+                <div>April Victor</div>
+                <div class="comparison-location">TX Mansfield | Mansfield 079</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">84%</span>
+                <span class="comparison-subtext">112 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">4.</span>
+              <span class="comparison-name">
+                <div>Tiera Ross</div>
+                <div class="comparison-location">TX Katy | Ranch Crossing 050</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">82%</span>
+                <span class="comparison-subtext">119 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">5.</span>
+              <span class="comparison-name">
+                <div>Makenzie Brown</div>
+                <div class="comparison-location">TX Mansfield | Mansfield 079</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">81%</span>
+                <span class="comparison-subtext">94 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">6.</span>
+              <span class="comparison-name">
+                <div>Tori Holm</div>
+                <div class="comparison-location">TX Austin | Allendale 025</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">79%</span>
+                <span class="comparison-subtext">129 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">7.</span>
+              <span class="comparison-name">
+                <div>Kalli⚡️ Main</div>
+                <div class="comparison-location">ID Boise | Broadway Ave 124</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">78%</span>
+                <span class="comparison-subtext">104 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">8.</span>
+              <span class="comparison-name">
+                <div>Melissa Perez</div>
+                <div class="comparison-location">VA Alexandria | Kingstowne 134</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">77%</span>
+                <span class="comparison-subtext">70 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">9.</span>
+              <span class="comparison-name">
+                <div>Cheyenne Greer</div>
+                <div class="comparison-location">VA Alexandria | Kingstowne 134</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">74%</span>
+                <span class="comparison-subtext">133 services</span>
+              </span>
+            </div>
+          
+            <div class="comparison-item">
+              <span class="comparison-rank">10.</span>
+              <span class="comparison-name">
+                <div>Jackson (Erilyn) Black</div>
+                <div class="comparison-location">TX Cypress | Boardwalk 063</div>
+              </span>
+              <span class="comparison-item-detail">
+                <span class="comparison-value">74%</span>
+                <span class="comparison-subtext">53 services</span>
+              </span>
             </div>
           
         </div>
@@ -957,7 +1169,7 @@
           <strong>3. Replicate Top Location Strategies:</strong> Analyze the operational playbook at highest-volume locations and implement best practices across the network.
         </p>
         <p>
-          <strong>4. Staff Optimization:</strong> Use location drill-down data to identify high-performers and create mentorship programs for knowledge transfer.
+          <strong>4. Staff Optimization:</strong> Use location drill-down data to identify high-performers and create mentorship programs for knowledge transfer. Focus on staff with high sugar adoption rates to drive service diversification.
         </p>
       </div>
     </section>
